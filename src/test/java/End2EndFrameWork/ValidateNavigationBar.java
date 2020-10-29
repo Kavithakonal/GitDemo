@@ -34,6 +34,7 @@ public class ValidateNavigationBar extends Base
 		ob.getNavigationBar().isDisplayed();
 		log.info("Navigation bar  is verified");
 		Assert.assertTrue(ob.getNavigationBar().isDisplayed());
+		log.info("Navigation bar is verified by assersion");
 
 }
 	@Test
