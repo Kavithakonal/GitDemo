@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="End2EndFrameWork.Listeners"/>
+  </listeners>
+  <test name="validating forgotPassword functionality(failed)" parallel="tests">
+    <classes>
+      <class name="End2EndFrameWork.VerifiyingForgotPassword">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="doForgotPassword"/>
+          <include name="prequest"/>
+        </methods>
+      </class> <!-- End2EndFrameWork.VerifiyingForgotPassword -->
+    </classes>
+  </test> <!-- validating forgotPassword functionality(failed) -->
+  <test name="validating login moduels with different user(failed)" parallel="tests">
+    <classes>
+      <class name="End2EndFrameWork.LaunchingBrowser">
+        <methods>
+          <include name="launchbrowserfrombase" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+          <include name="prequest"/>
+        </methods>
+      </class> <!-- End2EndFrameWork.LaunchingBrowser -->
+    </classes>
+  </test> <!-- validating login moduels with different user(failed) -->
+</suite> <!-- Failed suite [Suite] -->

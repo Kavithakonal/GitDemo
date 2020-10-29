@@ -1,0 +1,7 @@
+20:59:06.222 [TestNG-tests-2] INFO  resources.Base - Text on home page is verified
+20:59:07.892 [TestNG-tests-2] INFO  resources.Base - Navigation bar  is verified
+20:59:08.506 [TestNG-tests-2] INFO  resources.Base - Learn Text on home page is verified
+20:59:14.367 [TestNG-tests-1] INFO  resources.Base - browser is opended
+20:59:16.555 [TestNG-tests-1] INFO  resources.Base - click on the login button
+20:59:18.507 [TestNG-tests-1] INFO  resources.Base - completed all terms
+20:59:23.626 [TestNG-tests-1] INFO  resources.Base - browser is opended

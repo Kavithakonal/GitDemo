@@ -1,0 +1,7 @@
+15:38:33.852 [TestNG-tests-1] INFO  resources.Base - completed all terms
+15:38:37.481 [TestNG-tests-1] INFO  resources.Base - browser is opended
+15:38:38.683 [TestNG-tests-1] INFO  resources.Base - click on the login button
+15:38:39.726 [TestNG-tests-1] INFO  resources.Base - completed all terms
+16:09:23.259 [TestNG-tests-1] INFO  resources.Base - Driver is intialized
+16:10:06.913 [TestNG-tests-1] INFO  resources.Base - browser is opended
+16:10:08.405 [TestNG-tests-2] INFO  resources.Base - Text on home page is verified

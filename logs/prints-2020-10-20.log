@@ -1,0 +1,6 @@
+15:18:08.747 [TestNG-tests-1] INFO  resources.Base - click on the login button
+15:18:09.988 [TestNG-tests-3] INFO  resources.Base - click on forgot password pagge sucessfully on login page
+15:18:10.170 [TestNG-tests-3] INFO  resources.Base - entered valid email address sucessfully
+15:18:10.621 [TestNG-tests-3] INFO  resources.Base - clicked on send me  button sucessfully
+15:18:11.810 [TestNG-tests-1] INFO  resources.Base - completed all terms
+15:18:18.863 [TestNG-tests-1] INFO  resources.Base - browser is opended

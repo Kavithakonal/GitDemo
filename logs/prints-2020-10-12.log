@@ -1,0 +1,7 @@
+23:51:43.936 [TestNG-tests-1] INFO  resources.Base - completed all terms
+23:57:46.329 [TestNG-tests-1] INFO  resources.Base - Driver is intialized
+23:58:09.143 [TestNG-tests-1] INFO  resources.Base - browser is opended
+23:58:16.176 [TestNG-tests-1] INFO  resources.Base - click on the login button
+23:58:21.047 [TestNG-tests-1] INFO  resources.Base - completed all terms
+23:58:25.839 [TestNG-tests-1] INFO  resources.Base - browser is opended
+23:58:27.533 [TestNG-tests-1] INFO  resources.Base - click on the login button

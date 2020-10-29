@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="End2EndFrameWork.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="validating navigation bar(failed)" parallel="tests">
+    <classes>
+      <class name="End2EndFrameWork.ValidateNavigationBar">
+        <methods>
+          <include name="verfyingTexts"/>
+          <include name="prequest"/>
+          <include name="launchbrowserfrombase"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- End2EndFrameWork.ValidateNavigationBar -->
+    </classes>
+  </test> <!-- validating navigation bar(failed) -->
+  <test thread-count="5" name="validating forgotPassword functionality(failed)" parallel="tests">
+    <classes>
+      <class name="End2EndFrameWork.VerifiyingForgotPassword">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="doForgotPassword"/>
+          <include name="prequest"/>
+        </methods>
+      </class> <!-- End2EndFrameWork.VerifiyingForgotPassword -->
+    </classes>
+  </test> <!-- validating forgotPassword functionality(failed) -->
+  <test thread-count="5" name="validating login moduels with different user(failed)" parallel="tests">
+    <classes>
+      <class name="End2EndFrameWork.LaunchingBrowser">
+        <methods>
+          <include name="launchbrowserfrombase"/>
+          <include name="closeBrowser"/>
+          <include name="prequest"/>
+        </methods>
+      </class> <!-- End2EndFrameWork.LaunchingBrowser -->
+    </classes>
+  </test> <!-- validating login moduels with different user(failed) -->
+</suite> <!-- Failed suite [Suite] -->
